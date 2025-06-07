@@ -1,0 +1,95 @@
+Product Requirements Document (PRD)
+
+Title: Advanced Microfactory and Robotics Integration Hub — 301 Beech St., North Little Rock, AR
+
+Owner: James Washington
+Stakeholders: Titan Secure Tech, City of North Little Rock Economic Development, Manufacturing Investors, Local Workforce Boards
+
+⸻
+
+Overview
+
+A modular, automation-ready microfactory facility designed to support advanced manufacturing, robotics testing, and industrial automation operations in the North Little Rock corridor. Located at 301 Beech St., this site will serve as a support node for Arkansas's reshoring initiatives and logistics-driven factory infrastructure.
+
+⸻
+
+Goals
+	•	Develop a commercial property into a future-ready industrial support facility
+	•	Enable prototyping, kitting, testing, and robotics calibration operations
+	•	Integrate automation and AI tools to power micro-scale manufacturing
+	•	Provide space for workforce training or R&D with modular leasing potential
+	•	Attract light industrial tenants, OEMs, or robotics startups
+
+⸻
+
+Target Users
+	•	Regional manufacturers (Tier 1-3 suppliers)
+	•	Robotics and automation startups
+	•	Workforce development orgs
+	•	Government & DoD contractors
+	•	Smart warehouse operators
+
+⸻
+
+Core Features
+	1.	Modular Building Infrastructure
+	•	Small footprint (under 5,000 sq ft)
+	•	High ceilings for robotics testing
+	•	Flexible layout for assembly/fabrication
+	2.	Autonomous Systems Integration
+	•	AGV pathing and calibration zones
+	•	Drone test lanes and rooftop access
+	•	Environmental sensor network (IoT-ready)
+	3.	Data + AI Integration Layer
+	•	AI-powered machine vision for inspection
+	•	ML pipelines for predictive maintenance
+	•	Digital twin modeling of workflows
+	4.	Developer Platform (Web App)
+	•	Internal dashboard for facility usage and sensor data
+	•	Robotics logs, simulation outputs, and training modules
+	•	Integration with Stripe for tenant usage billing and facility leasing
+	5.	API Access Layer
+	•	REST endpoints for robotics job tracking
+	•	Supabase/PostgreSQL backend for state management
+	•	Webhooks to notify tenants of availability or errors
+
+⸻
+
+Tech Stack (Planned)
+	•	Frontend: Next.js 15 (App Router) + Tailwind + ShadCN UI
+	•	Backend: SST (Serverless Stack) + Supabase (Postgres)
+	•	Infrastructure: Cloudflare Workers for edge API handling
+	•	Payments & Billing: Stripe Elements (usage metering, leases)
+	•	Robotics Simulation: ROS integration + external endpoints for logging
+	•	Authentication: Supabase Auth (email, optional OAuth)
+
+⸻
+
+Milestones
+	1.	Phase 1 – Property Prep (Q3 2025)
+	•	Secure permits & zoning confirmation
+	•	Site cleanup + core utilities readiness
+	2.	Phase 2 – MVP Facility (Q4 2025)
+	•	Erect modular building (or convert existing structure)
+	•	Launch web app for simulation + leasing
+	3.	Phase 3 – Robotics Integration (Q1 2026)
+	•	Begin test deployments of mobile robots
+	•	Sensor + data capture systems installed
+	4.	Phase 4 – Active Tenancy & Training (Q2 2026)
+	•	Onboard first industrial tenant(s)
+	•	Run pilot training cohort in partnership with local workforce board
+
+⸻
+
+Success Metrics
+	•	First tenant secured within 3 months of MVP launch
+	•	90% uptime of automation tracking system
+	•	1–2 paid robotics or smart warehouse pilot deployments within Year 1
+	•	100% property utilization by Q2 2026
+
+⸻
+
+Next Steps
+	•	Create mockups of dashboard + internal control UI
+	•	Prepare investor deck highlighting use case and comps
+	•	Coordinate with local economic development for support and incentives 
